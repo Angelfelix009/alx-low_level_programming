@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * Main Function of the program
- * It Serves as aentry point
- * */
+ * main - Serves as the entry point for the program
+ *
+ * Return: By default returns zero if no error otherwise return non zero-value
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
