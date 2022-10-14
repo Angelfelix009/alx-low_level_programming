@@ -13,7 +13,7 @@ int main(void)
 			if (i != j)
 			{
 				putchar(i);
-				putchair(j);
+				putchar(j);
 			}
 			if (i == j)
 			{
@@ -29,7 +29,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		k++
+		k++;
 	}
 	putchar('\n');
 	return (0);
