@@ -5,8 +5,9 @@
  */
 int main(void)
 {
-	int i, k='0', j;
-	for (i='0'; i <= '9'; i++)
+	int i, k = '0', j
+		;
+	for (i = '0'; i <= '9'; i++)
 	{
 		for (j = k; j <= '9'; j++)
 		{
@@ -19,7 +20,7 @@ int main(void)
 			{
 				continue;
 			}
-			if (i =='8' && j == '9')
+			if (i == '8' && j == '9')
 			{
 				break;
 			}
