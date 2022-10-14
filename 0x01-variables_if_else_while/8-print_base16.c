@@ -12,6 +12,6 @@ int main(void)
 	{
 		putchar(hexvalues[i]);
 	}
-	putchair('\n');
+	putchar('\n');
 	return (0);
 }
