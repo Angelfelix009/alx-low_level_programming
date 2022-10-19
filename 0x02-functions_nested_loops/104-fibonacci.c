@@ -6,7 +6,7 @@
 int main(void)
 {
 	int c, boolean, boolean2;
-	long int n2 = 2, n1 = 1, fn, fn2, n11, n22;
+	long int n2 = 2, n1 = 1, fn2, fn, n11, n22;
 	
 	boolean =  boolean2 = 1;
 	printf("%ld, %ld", n1, n2);
