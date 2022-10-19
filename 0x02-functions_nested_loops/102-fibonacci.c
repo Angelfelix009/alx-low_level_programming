@@ -6,10 +6,8 @@
 int main(void)
 {
 	int c;
-	long int n2, n1, fn;
-	
-	n1 = 1;
-	n2 = 2;
+	long int n2 = 1, n1 = 2, fn;
+
 	printf("%ld, %ld", n1, n2);
 	for (c = 0; c < 48; c++)
 	{
