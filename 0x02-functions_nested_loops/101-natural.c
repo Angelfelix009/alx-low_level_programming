@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	int a, b;
-	
+	int b, a;
+
 	for (a = 1; a < 1024; a++)
 	{
 		if ((a % 3) == 0 || (a % 5) == 0)
