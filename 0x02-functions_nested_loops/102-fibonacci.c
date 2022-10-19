@@ -6,7 +6,7 @@
 int main(void)
 {
 	int c;
-	long int n2 = 1, n1 = 2, fn;
+	long int n2 = 2, n1 = 1, fn;
 
 	printf("%ld, %ld", n1, n2);
 	for (c = 0; c < 48; c++)
