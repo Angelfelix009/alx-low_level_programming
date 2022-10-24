@@ -6,7 +6,7 @@
  * including the terminating null byte, to the
  * buffer pointed to by dest.
  * @dest: destination
- * #src: source
+ * @src: source
  * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
