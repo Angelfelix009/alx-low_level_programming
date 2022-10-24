@@ -12,7 +12,7 @@ int main(void)
 	time_t t;
 
 	srand((unsigned int) time(&t));
-	while (s < 2772)
+	while (c < 2772)
 	{
 		r = rand() % 128;
 		if((c + r) > 2772)
