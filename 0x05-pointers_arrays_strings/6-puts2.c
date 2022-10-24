@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * puts2- prints every other character of a string, starting with the first character
+ * @str: character to be printer
+ * Return: no return
+ */
+void put2(char *str)
+{
+	int count = 0;
+
+	while (count >= 0)
+	{
+		if (str[count] == '\n')
+		{
+			_putchar('\n');
+			break;
+		}
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
+	}
+}
