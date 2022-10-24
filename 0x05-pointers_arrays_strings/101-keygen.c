@@ -20,6 +20,6 @@ int main(void)
 		c = c + r;
 		printf("%c", r);
 	}
-	print("%c\n", (2772 - c));
+	printf("%c\n", (2772 - c));
 	return (0);
 }
