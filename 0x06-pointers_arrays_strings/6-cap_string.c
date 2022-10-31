@@ -2,7 +2,7 @@
 
 /**
  * cap_string - capitalizes all words of a string
- * @s: input string
+ * @s: input string.
  * Return: dest
  */
 char *cap_string(char *s)
@@ -15,7 +15,7 @@ char *cap_string(char *s)
 	count++;
 	while (*(s + count) != '\0')
 	{
-		for (i = 10; i < 13; i++)
+		for (i = 0; i < 13; i++)
 		{
 			if (*(s + count) == sep_words[i])
 			{
