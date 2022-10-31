@@ -3,7 +3,7 @@
 /**
  * leet- encode a string into 1337
  * @s: input string
- * Return: the pointer to dest
+ * Return: the pointer to dest.
  */
 char *leet(char *s)
 {
@@ -16,7 +16,7 @@ char *leet(char *s)
 	{
 		for (i = 0; i < 5; i++)
 		{
-			if (*(s + count) == low_letters[1] || *(s + count) == upp_letters[i])
+			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
 			{
 				*(s + count) = numbers[i];
 				break;
@@ -26,3 +26,4 @@ char *leet(char *s)
 	}
 	return (s);
 }
+
