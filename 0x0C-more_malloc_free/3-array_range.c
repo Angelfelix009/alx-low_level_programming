@@ -9,7 +9,7 @@
 int *array_range(int min, int max)
 {
 	int *ar;
-	int k;
+	int j;
 
 	if (min > max)
 		return (NULL);
